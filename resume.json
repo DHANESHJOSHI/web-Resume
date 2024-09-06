@@ -1,0 +1,64 @@
+{
+    "name": "Dhanesh Joshi",
+    "contact": {
+        "email": "joshi.dhanesh.b6@gmail.com",
+        "phone": "+91 76238 90736",
+        "portfolio": "https://portfolio-link.com"
+    },
+    "education": [
+        {
+            "degree": "Diploma in Computer Engineering",
+            "institution": "Government Polytechnic, Dahod",
+            "duration": "Aug 2020 - Mar 2023"
+        },
+        {
+            "degree": "Bachelor of Technology in Computer Engineering",
+            "institution": "Engineering College Tuwa",
+            "duration": "Aug 2023 - June 2026"
+        }
+    ],
+    "experience": [
+        {
+            "title": "Student Mentor Intern",
+            "company": "CRBKOX",
+            "duration": "Jun 2022 - Aug 2023",
+            "description": "Assisted students with doubts, Excel work, and PowerPoint presentations."
+        },
+        {
+            "title": "Full Stack Developer Intern",
+            "company": "CRBKOX",
+            "duration": "Nov 2022 - Dec 2023",
+            "description": "Developed from scratch using HTML, Bootstrap, JS, and created a responsive site."
+        },
+        {
+            "title": "Full Stack Developer",
+            "company": "MBSoftTech",
+            "duration": "Nov 2022 - Dec 2023",
+            "description": "Developed from scratch using HTML, Bootstrap, JS, and created a responsive site."
+        }
+    ],
+    "projects": [
+        {
+            "name": "3D Portfolio",
+            "link": "https://project-link.com",
+            "description": "Developed a 3D Portfolio to Enhance ReactJS, Tailwind CSS, GSAP."
+        },
+        {
+            "name": "TechGram",
+            "link": "https://techgram-link.com",
+            "description": "Full-stack project for file, image, blog, form, and note storage with an attractive UI."
+        }
+    ],
+    "skills": ["C", "C++", "Java", "HTML/CSS", "JavaScript", "PHP", "SQL"],
+    "certifications": [
+        {
+            "name": "Microsoft Learn Student Ambassador",
+            "link": "https://project-link.com",
+            "date": "Mar 2024"
+        },
+        {
+            "name": "IBM Chatbot",
+            "date": "Jun 2023"
+        }
+    ]
+}
