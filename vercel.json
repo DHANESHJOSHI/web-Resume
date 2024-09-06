@@ -1,0 +1,11 @@
+{
+    "version": 2,
+    "builds": [
+        { "src": "api/usercount.js", "use": "@vercel/node" },
+        { "src": "public/index.html", "use": "@vercel/static" }
+    ],
+    "routes": [
+        { "src": "/api/usercount", "dest": "/api/usercount.js" },
+        { "src": "/", "dest": "/public/index.html" }
+    ]
+}

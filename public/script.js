@@ -1,4 +1,3 @@
-// script.js
 document.addEventListener('DOMContentLoaded', function () {
     fetch('resume.json')
         .then(response => response.json())
@@ -50,5 +49,26 @@ document.addEventListener('DOMContentLoaded', function () {
                 li.textContent = `${cert.name} (${cert.date})`;
                 certificationsList.appendChild(li);
             });
+
+            // Populate user count (static or from JSON)
+            const userCount = data.userCount || 5000; 
+            document.getElementById('user-count').textContent = userCount;
         });
+});
+
+ 
+ function fetchUserCount() {
+    fetch('/api/usercount')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('user-count').textContent = data.count;
+        })
+        .catch(error => {
+            console.error('Error fetching user count:', error);
+            document.getElementById('user-count').textContent = 'Error fetching count';
+        });
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    fetchUserCount();
 });

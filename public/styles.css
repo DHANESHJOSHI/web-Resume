@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.resume {
+    width: 21cm;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+/* Ensure proper printing on A4 size */
+@media print {
+    body {
+        width: 21cm;
+        height: 29.7cm;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+        background-color: white;
+    }
+
+    .resume {
+        margin: 0;
+        padding: 10px;
+        box-shadow: none;
+        page-break-after: auto;
+    }
+
+    h1, h2 {
+        color: black;
+    }
+
+    ul li {
+        page-break-inside: avoid;
+    }
+
+    /* Add page breaks for printing */
+    .resume > section {
+        page-break-after: always;
+    }
+}

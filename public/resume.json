@@ -29,12 +29,6 @@
             "company": "CRBKOX",
             "duration": "Nov 2022 - Dec 2023",
             "description": "Developed from scratch using HTML, Bootstrap, JS, and created a responsive site."
-        },
-        {
-            "title": "Full Stack Developer",
-            "company": "MBSoftTech",
-            "duration": "Nov 2022 - Dec 2023",
-            "description": "Developed from scratch using HTML, Bootstrap, JS, and created a responsive site."
         }
     ],
     "projects": [
@@ -53,12 +47,12 @@
     "certifications": [
         {
             "name": "Microsoft Learn Student Ambassador",
-            "link": "https://project-link.com",
             "date": "Mar 2024"
         },
         {
             "name": "IBM Chatbot",
             "date": "Jun 2023"
         }
-    ]
+    ],
+    "userCount": 5000
 }
